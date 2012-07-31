@@ -1,0 +1,350 @@
+/*
+ * Awwards Demo Github Page by Joshua Pekera
+ * This is for the demo page only and has a lot of uncessasry style for implimenting the Awwwards retina banners. I would not recommend using anything in this file.
+*/
+
+/* Table of Content
+==================================================
+  :: Global Site Styles
+  :: Header & Global Nav
+  :: Side Nav
+  :: Content Containers & Grids
+  :: Page Specific
+  :: Media Queries
+  :: Font-Face 
+*/
+
+/* Global Site Styles
+================================================== */
+body {
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:400;
+	font-style:normal;
+	color:#1a1a1a;
+	font-size:15px;
+	line-height:15px;
+	padding-top: 150px;
+}
+
+/* Links */
+a {}
+a:hover, a:focus {}
+
+/* Headers */
+h1, h2, h3 {}
+h1 strong {}
+h2 {}
+h3 {}
+h4 {}
+p {}
+
+/* Header & Global Nav
+================================================== */
+
+/* Header */
+.navbar-inner {
+	min-height: 60px;
+	vertical-align: middle;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #85c742;
+}
+
+.navbar-inner .container {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.navbar .brand {
+	display: block;
+	float: left;
+	padding: 8px 20px 12px;
+	margin-left: 0px;
+	font-size: 24px;
+	font-weight:400;
+	letter-spacing: .05em;
+	line-height: 1;
+	color: white;
+	-webkit-transition: color .4s linear;
+	-moz-transition: color .4s linear;
+	-o-transition: color .4s linear;
+	transition: color .4s linear;
+}
+
+.navbar .btn-navbar{
+	float: left;
+}
+
+.navbar-fixed-top {
+	margin-bottom: 20px;
+}
+
+
+/* Global Nav */
+
+
+/* Page Slide */
+#pageslide {
+/* These styles MUST be included. Do not change. */
+	display:none;
+	position:absolute;
+	position:fixed;
+	top:0;
+	height:100%;
+	z-index:999999;
+/* Specify the width of your pageslide here */
+	width:200px;
+	padding:0;
+/* These styles are optional, and describe how the pageslide will look */
+	background-color:#333;
+	color:#FFF;
+	border-right:solid 1px #242424
+}
+
+.open {
+	display:none;
+}
+
+
+/* Side Nav
+================================================== */
+
+
+/* Content Containers & Grids
+================================================== */
+
+/* Default display */
+
+/* Main Content Area */
+
+/* Grids */
+
+/* Grid Lists */
+
+/* Grid Columns */
+
+/* Debug Output */
+
+
+/* Page Specific Styles
+================================================== */
+
+/* Page Titles, Icons, & Shapes
+----------------------------------- */
+
+
+/* Demo Page
+---------------- */
+.hero-unit {
+	background: white;
+	text-align: center;
+	padding: 0 0 0px 0;
+}
+
+/* Footer
+================================================== */
+
+
+
+/* Share Widgets
+================================================== */
+
+/* Facebook Responsive
+-----------------------*/
+.fb-comments,.fb_iframe_widget iframe[style],.fb_iframe_widget span[style] {
+	width:100%!important;
+}
+
+.fb-like {
+	margin-bottom:20px;
+	overflow:hidden;
+	float:left!important;
+}
+
+.fb-like span[style],.fb-like span iframe[style] {
+	width:90px!important;
+}
+
+/* Multimedia Elements
+================================================== */
+
+/* Responsive video embeds (must be wrapped container)
+-------------------------------------------------------*/
+.embed-container {
+	position:relative;
+	padding-bottom:56.25%;/*16/9 ratio*/
+	padding-top:0;
+	height:0;
+	overflow:hidden;
+}
+
+.embed-container iframe,.embed-container object,.embed-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+/* Media Queries
+================================================== */
+
+/*:::PRIMARY:::*//* Landscape phone to portrait tablet 
+----------------------------------------*/
+@media (max-width: 767px) {
+/* Styles */
+
+body {
+	padding-top: 0px;
+}
+
+/* Globalnav Page slide */
+ul#globalnav {
+	display:none
+}
+
+.open {
+	display:block
+}
+
+#pageslide {
+	width:200px
+}
+
+#pageslide ul#globalnav {
+	width:auto;
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border:none;
+	background:none;
+	box-shadow:none;
+/* Firefox v3.5+ */
+	-moz-box-shadow:none;
+/* Safari v3.0+ and by Chrome v0.2+ */
+	-webkit-box-shadow:none;
+/* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+	box-shadow:none;
+	text-indent:0;
+	color:#FFF;
+	margin:0;
+	background-color:transparent
+}
+
+#pageslide ul#globalnav li {
+	padding:0;
+	margin:0 20px;
+	list-style:none;
+	display:block;
+	float:none
+}
+
+#pageslide ul#globalnav li:active {
+	-webkit-tap-highlight-color:green;
+	background-color:#222
+}
+
+#pageslide ul#globalnav li a.navtext {
+	position:relative;
+	bottom:0;
+	color:#848484;
+	text-shadow:0 1px 0 rgba(0,0,0,.6);
+	width:auto;
+	font:600 18px/30px proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	-webkit-transition:color .4s linear;
+	-moz-transition:color .4s linear;
+	-o-transition:color .4s linear;
+	-ms-transition:color .4s linear;
+	transition:color .4s linear;
+	border-bottom:solid 1px #2b2b2b;
+	-moz-box-shadow:0 1px 0 #3d3d3d;
+	-webkit-box-shadow:0 1px 0 #3d3d3d;
+	box-shadow:0 1px 0 #3d3d3d;
+	padding:11px 20px;
+	display:block;
+	text-align:left
+}
+
+#pageslide ul#globalnav li a.navtext:hover {
+	text-decoration:none;
+	color:#fff
+}
+
+#pageslide ul#globalnav li a.navtext.active {
+	text-decoration:none;
+	color:#fff
+}
+}
+
+/* Mobile Devices Landscape Specific
+----------------------------------------*/
+@media (min-width: 480px) and (max-width: 767px) {
+/* Styles */
+}
+
+/*:::PRIMARY:::*//* Landscape phones and down 
+---------------------------------------------------------------------*/
+@media (max-width: 480px) {
+/* Styles */
+}
+
+/*:::PRIMARY:::*//* Portrait tablet to landscape and desktop 
+------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 979px) {
+/* Styles */
+body {
+	padding-top: 0px;
+}
+}
+
+
+/* iPads (portrait and landscape) 
+---------------------------------------------------------------------------------------*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) 
+------------------------ */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait)
+----------------------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Slidely Wide Desktop Display
+------------------------------------*/
+@media (min-width: 980px) {
+/* Styles */
+}
+
+/* Large Desktop Displays 
+----------------------------------------*/
+@media (min-width: 1200px) {
+/* Styles */
+}
+
+/* Retina Displays (Tip: Best used only for image replacement)
+------------------------------------------------------------------ */
+@media 
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+/* Font-Face
+================================================== */
+/* Hide text while web fonts are loading */
+.wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading p, .wf-loading a { visibility: hidden; }
+
