@@ -43,32 +43,45 @@ p {}
 
 /* Header */
 .navbar-inner {
-	min-height: 60px;
+	min-height: 100px;
 	vertical-align: middle;
 	padding-right: 20px;
 	padding-left: 20px;
-	background-color: #85c742;
+	background-color: white;
 }
 
 .navbar-inner .container {
-	padding-top: 10px;
+	padding-top: 30px;
 	text-align: center;
 }
 
 .navbar .brand {
 	display: block;
-	float: left;
-	padding: 8px 20px 12px;
+	float: none;
+	padding: 0;
 	margin-left: 0px;
-	font-size: 24px;
-	font-weight:400;
-	letter-spacing: .05em;
+	font-family: Museo-300;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 250%;
+	letter-spacing: normal;
 	line-height: 1;
-	color: white;
+	color: #3c4c51;
 	-webkit-transition: color .4s linear;
 	-moz-transition: color .4s linear;
 	-o-transition: color .4s linear;
 	transition: color .4s linear;
+}
+
+.navbar a.brand {
+	background: url('../img/awwwardslogo.png') no-repeat;
+	height: 54px;
+	width: 292px;
+	margin: 0 auto;
+}
+
+.navbar .brand strong {
+	letter-spacing:-3px;
 }
 
 .navbar .btn-navbar{
@@ -340,11 +353,23 @@ and (orientation : portrait) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
+	.navbar a.brand {
+		background: url('../img/awwwardslogo2x.png') no-repeat;
+		background-size: 292px 54px;
+	}
 }
 
 
 /* Font-Face
 ================================================== */
 /* Hide text while web fonts are loading */
+@font-face {font-family: 'Museo-300';src: url('../webfonts/23CBA0_0_0.eot');src: url('../webfonts/23CBA0_0_0.eot?#iefix') format('../embedded-opentype'),url('../webfonts/23CBA0_0_0.woff') format('woff'),url('../webfonts/23CBA0_0_0.ttf') format('truetype');}
+
+.Museo-300 { 
+	font-family: Museo-300;
+	font-weight: normal;
+	font-style: normal;
+}
+
 .wf-loading h1, .wf-loading h2, .wf-loading h3, .wf-loading p, .wf-loading a { visibility: hidden; }
 
