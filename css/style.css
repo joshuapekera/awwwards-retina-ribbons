@@ -301,6 +301,8 @@ ul#globalnav {
 /* Styles */
 	.navbar a.brand {
 		background-size: 234px 43px;
+		height: 43px;
+		width: 234px;
 	}
 }
 
@@ -359,6 +361,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	.navbar a.brand {
 		background: url('../img/awwwardslogo2x.png') no-repeat;
 		background-size: 234px 43px;
+		height: 43px;
+		width: 234px;
 	}
 }
 
