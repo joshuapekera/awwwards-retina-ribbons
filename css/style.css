@@ -300,7 +300,7 @@ ul#globalnav {
 @media (max-width: 480px) {
 /* Styles */
 	.navbar a.brand {
-		background-size: 263px 49px;
+		background-size: 234px 43px;
 	}
 }
 
@@ -358,7 +358,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 	.navbar a.brand {
 		background: url('../img/awwwardslogo2x.png') no-repeat;
-		background-size: 263px 49px;
+		background-size: 234px 43px;
 	}
 }
 
