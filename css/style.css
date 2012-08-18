@@ -51,7 +51,7 @@ p {}
 }
 
 .navbar-inner .container {
-	padding-top: 30px;
+	padding-top: 50px;
 	text-align: center;
 }
 
@@ -299,6 +299,9 @@ ul#globalnav {
 ---------------------------------------------------------------------*/
 @media (max-width: 480px) {
 /* Styles */
+	.navbar a.brand {
+		background-size: 263px 49px;
+	}
 }
 
 /*:::PRIMARY:::*//* Portrait tablet to landscape and desktop 
@@ -355,7 +358,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 	.navbar a.brand {
 		background: url('../img/awwwardslogo2x.png') no-repeat;
-		background-size: 292px 54px;
+		background-size: 263px 49px;
 	}
 }
 
