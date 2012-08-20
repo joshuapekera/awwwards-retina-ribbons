@@ -24,6 +24,7 @@ body {
 	font-size:15px;
 	line-height:15px;
 	padding-top: 150px;
+	background-color: #f7f9fa;
 }
 
 /* Links */
@@ -47,7 +48,7 @@ p {}
 	vertical-align: middle;
 	padding-right: 20px;
 	padding-left: 20px;
-	background-color: white;
+	background-color: #f7f9fa;
 }
 
 .navbar-inner .container {
@@ -55,6 +56,19 @@ p {}
 	text-align: center;
 }
 
+/*
+.brand {
+	margin: 0 auto;
+}
+
+.brand img{
+	float: left;
+	position: relative;
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+*/
 .navbar .brand {
 	display: block;
 	float: none;
@@ -76,7 +90,7 @@ p {}
 .navbar a.brand {
 	background: url('../img/awwwardslogo.png') no-repeat;
 	height: 54px;
-	width: 292px;
+	width: 300px;
 	margin: 0 auto;
 }
 
@@ -149,7 +163,7 @@ p {}
 /* Demo Page
 ---------------- */
 .hero-unit {
-	background: white;
+	background: transparent;
 	text-align: center;
 	padding: 0 0 0px 0;
 }
@@ -300,9 +314,9 @@ ul#globalnav {
 @media (max-width: 480px) {
 /* Styles */
 	.navbar a.brand {
-		background-size: 234px 43px;
-		height: 43px;
-		width: 234px;
+		background-size: 270px 49px;
+		height: 49px;
+		width: 270px;
 	}
 }
 
@@ -360,9 +374,9 @@ only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 	.navbar a.brand {
 		background: url('../img/awwwardslogo2x.png') no-repeat;
-		background-size: 234px 43px;
-		height: 43px;
-		width: 234px;
+		background-size: 270px 49px;
+		height: 49px;
+		width: 270px;
 	}
 }
 
