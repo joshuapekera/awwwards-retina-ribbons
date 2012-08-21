@@ -17,10 +17,10 @@
 /* Global Site Styles
 ================================================== */
 body {
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Karla","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-weight:400;
 	font-style:normal;
-	color:#1a1a1a;
+	color:#3c4c51;
 	font-size:15px;
 	line-height:15px;
 	padding-top: 0px;
@@ -32,7 +32,7 @@ a {}
 a:hover, a:focus {}
 
 /* Headers */
-h1, h2, h3 {}
+h1, h2, h3 { color: #3c4c51}
 h1 strong {}
 h2 {}
 h3 {}
@@ -169,7 +169,18 @@ p {}
 .hero-unit {
 	background: transparent;
 	text-align: center;
+	margin-top: 0px;
 	padding: 0 0 0px 0;
+	position: relative;
+}
+
+img.browser {
+	position: relative;
+}
+
+img.ribbons {
+	z-index: 10;
+	position: absolute;
 }
 
 /* Footer

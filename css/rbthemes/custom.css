@@ -1,0 +1,101 @@
+/**
+ * Tomorrow Night theme
+ *
+ * @author Chris Kempson
+ * @author skim
+ * @version 1.0.0
+ */
+pre {
+    background-color: #1d1f21;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: pre-wrap;
+    margin: 0px;
+    padding: 0 10px;
+    color: #c5c8c6;
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+    border: none;
+    box-shadow: 0 1px 1.5px 0 rgba(0,0,0,0.45);
+    -moz-box-shadow: 0 1px 1.5px 0 rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.45);
+    -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1.5,Color = #26000000,Positive = true)";
+    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX = 0,OffY = 1.5,Color = #26000000,Positive = true);
+    zoom: 1;
+}
+
+code {
+    border: 1px solid #eaeaea;
+    margin: 0px 2px;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+pre code {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+pre, code {
+    font-family: Consolas, Menlo, 'Liberation Mono', Courier, monospace;
+    color: #333;
+    background: #f8f8f8;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+pre, pre code {
+    font-size: 13px;
+}
+
+pre .comment {
+    color: #998;
+}
+
+pre .support {
+    color: #0086B3;
+}
+
+pre .tag, pre .tag-name {
+    color: navy;
+}
+
+pre .keyword, pre .css-property, pre .vendor-prefix, pre .sass, pre .class, pre .id, pre .css-value, pre .entity.function, pre .storage.function {
+    font-weight: bold;
+}
+
+pre .css-property, pre .css-value, pre .vendor-prefix, pre .support.namespace {
+    color: #333;
+}
+
+pre .constant.numeric, pre .keyword.unit, pre .hex-color {
+    font-weight: normal;
+    color: #099;
+}
+
+pre .entity.class {
+    color: #458;
+}
+
+pre .entity.id, pre .entity.function {
+    color: #900;
+}
+
+pre .attribute, pre .variable {
+    color: teal;
+}
+
+pre .string, pre .support.value  {
+    font-weight: normal;
+    color: #d14;
+}
+
+pre .regexp {
+    color: #009926;
+}

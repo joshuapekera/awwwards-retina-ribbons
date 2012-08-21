@@ -14,46 +14,82 @@
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/awwwards.css" rel="stylesheet" type="text/css"><!-- PLACE YOUR AWWARDS.CSS LINK AFTER THE REST OF YOUR CSS -->
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <link href="css/keyframes.css" rel="stylesheet" type="text/css">
+    <link href="css/rbthemes/custom.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <!-- PLACE YOUR AWWARDS.CSS LINK AFTER THE REST OF YOUR CSS -->
+    <link href="css/awwwards.css" rel="stylesheet" type="text/css">
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
 </head>
 
 <body>
 	<!-- ADD AWWWARDS HTML JUST AFTER BODY -->
-	<div id="awwwards"><a href="http://www.awwwards.com" target="_blank">best websites of the world</a></div>
+	<div id="awwwards">
+		<a href="http://www.awwwards.com" target="_blank">best websites of the world</a>
+	</div>
+	
     <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
-                <a class="brand" href="#"></a>
+                <a class="brand animated bounceInTop" id="logo" href="#"></a>
             </div>
         </div>
     </div>
 
     <div class="container">
     	<div class="hero-unit">
-    		<img src="img/browser.png" alt="Responsive Devices">
+    		<img class="ribbons animated bounceInLeft" id="ribbons" src="img/ribbons.png" alt="Ribbons">
+    		<img class="browser animated bounceInRight" id="browser" src="img/browser2.png" alt="Browser Window">
     	</div>
-        <h2>The Gist</h2>
-        <p>Many web developers who are in tune with modern trends are well aware of retina displays and how they affect the products they design and build. <a href="http://awwwards.com">Awwwards.com</a> only shows websites built by the best web designers and developers in the world. Therefore it is likely many of the website submissions to Awwwards will support high pixel density displays, retina dispalys. The iPhone 4S, iPad 3 and now MacBook Pro are outfitted with retina displays. This is a trend that will most likely become even more prominent as time goes on. In order to make sure your products are enhanced by Awwwards' coveted banners by Awwwards </p>
-        
-        <h4>Awwwards HTML</h4>
-        <pre class="prettyprint linenums">
-	        &lt;p&gt;Sample text here...&lt;/p&gt;
-	    </pre>
-	    
-	    <h4>awwwards.css</h4>
-        <pre class="prettyprint linenums">
-	        &lt;p&gt;Sample text here...&lt;/p&gt;
-	    </pre>
-	    
-	    <h4>Awwwards Banners</h4>
-        <pre class="prettyprint linenums">
-	        &lt;p&gt;Sample text here...&lt;/p&gt;
-	    </pre>
-
+    	<hr>
+    	<section id="tutorial">
+    		<div class="row">
+    			<div class="span12">
+			        <h2>The Gist</h2>
+			        <p>Many web developers who are in tune with modern trends are well aware of retina displays and how they affect the products they design and build. <a href="http://awwwards.com">Awwwards.com</a> only shows websites built by the best web designers and developers in the world. Therefore it is likely many of the website submissions to Awwwards will support high pixel density displays, retina dispalys. The iPhone 4S, iPad 3 and now MacBook Pro are outfitted with retina displays. This is a trend that will most likely become even more prominent as time goes on. In order to make sure your products are enhanced by Awwwards' coveted banners by Awwwards </p>
+    			</div>
+    			<div class="span1 offset2">
+    			<div class="span10">
+			        
+			        <h4>Awwwards HTML</h4>
+			        <pre><code data-language="css">
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+			        	</code>
+				    </pre>
+				    
+				    <h4>awwwards.css</h4>
+			        <pre class="prettyprint linenums">
+				        &lt;p&gt;Sample text here...&lt;/p&gt;
+				    </pre>
+				    
+				    <h4>Awwwards Banners</h4>
+			        <pre class="prettyprint linenums">
+				        &lt;p&gt;Sample text here...&lt;/p&gt;
+				    </pre>
+    			</div>
+    		</div>
+    	</section>
     </div><!-- /container -->
+    <!-- Javascript -->
+    <script src="js/lib/rainbow/rainbow.min.js"></script>
+    <!-- <script src="js/lib/rainbow/rainbow.linenumbers.min.js"></script> -->
+    <script src="js/lib/rainbow/language/generic.js"></script>
+    <script src="js/lib/rainbow/language/css.js"></script>
 </body>
 </html>
