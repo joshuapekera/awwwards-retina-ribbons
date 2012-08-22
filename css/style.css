@@ -166,11 +166,12 @@ p {}
 
 /* Demo Page
 ---------------- */
+
 .hero-unit {
 	background: transparent;
 	text-align: center;
 	margin-top: 0px;
-	padding: 0 0 0px 0;
+	padding: 0px 0px 0px 0px;
 	position: relative;
 }
 
@@ -180,6 +181,21 @@ img.browser {
 
 img.ribbons {
 	z-index: 10;
+	position: absolute;
+}
+
+img.ribbon-white {
+	z-index: 10;
+	position: absolute;
+}
+
+img.ribbon-black {
+	z-index: 11;
+	position: absolute;
+}
+
+img.ribbon-green {
+	z-index: 12;
 	position: absolute;
 }
 

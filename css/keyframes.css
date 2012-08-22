@@ -14,7 +14,6 @@
     -moz-animation-iteration-count: infinite;
     -ms-animation-iteration-count: infinite;
     -o-animation-iteration-count: infinite;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 */
 
@@ -45,7 +44,6 @@
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
     -o-animation-iteration-count: 1;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 #awwwards {
@@ -61,7 +59,6 @@
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
     -o-animation-iteration-count: 1;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 #ribbons {
@@ -77,7 +74,51 @@
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
     -o-animation-iteration-count: 1;
-    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#ribbonone {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+}
+
+#ribbontwo {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-delay: 2.25s;
+    -moz-animation-delay: 2.25s;
+    -ms-animation-delay: 2.25s;
+    -o-animation-delay: 2.25s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+}
+
+#ribbonthree {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    -ms-animation-delay: 2.5s;
+    -o-animation-delay: 2.5s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
 }
 
 #browser {
@@ -93,7 +134,6 @@
     -moz-animation-iteration-count: 1;
     -ms-animation-iteration-count: 1;
     -o-animation-iteration-count: 1;
-    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 
