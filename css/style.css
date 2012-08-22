@@ -60,19 +60,6 @@ p {}
 	position: static;
 }
 
-/*
-.brand {
-	margin: 0 auto;
-}
-
-.brand img{
-	float: left;
-	position: relative;
-	display: block;
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-*/
 .navbar .brand {
 	display: block;
 	float: none;
@@ -173,7 +160,22 @@ p {}
 	margin-top: 0px;
 	padding: 0px 0px 0px 0px;
 	position: relative;
+	text-align: center;
 }
+
+/*
+.hero-unit h2 {
+	font-family: "Museo-300";
+	font-size: 48px;
+	font-weight: normal;
+	font-style: normal;
+	display: block;
+	position: absolute;
+	z-index: 13;
+	color: #181818;
+	text-shadow: 0px 1px 0px #404040;
+}
+*/
 
 img.browser {
 	position: relative;
@@ -196,6 +198,11 @@ img.ribbon-black {
 
 img.ribbon-green {
 	z-index: 12;
+	position: absolute;
+}
+
+img.retina {
+	z-index: 9;
 	position: absolute;
 }
 
