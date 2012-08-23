@@ -6,9 +6,9 @@
 /* Table of Content
 ==================================================
   :: Global Site Styles
-  :: Header & Global Nav
+  :: Header and Global Nav
   :: Side Nav
-  :: Content Containers & Grids
+  :: Content Containers and Grids
   :: Page Specific
   :: Media Queries
   :: Font-Face 
@@ -28,8 +28,19 @@ body {
 }
 
 /* Links */
-a {}
-a:hover, a:focus {}
+a {
+	color: #a0a1a2;
+	text-fill-color: none;
+	-webkit-transition: color .4s linear;
+	-moz-transition: color .4s linear;
+	-o-transition: color .4s linear;
+	-ms-transition: color .4s linear;
+	transition: color .4s linear;
+}
+a:hover, a:focus {
+	color: #5eab8d;
+	text-decoration: none;
+}
 
 /* Headers */
 h1, h2, h3 { color: #3c4c51}
@@ -39,7 +50,7 @@ h3 {}
 h4 {}
 p {}
 
-/* Header & Global Nav
+/* Header and Global Nav
 ================================================== */
 
 /* Header */
@@ -128,7 +139,7 @@ p {}
 ================================================== */
 
 
-/* Content Containers & Grids
+/* Content Containers and Grids
 ================================================== */
 
 /* Default display */
@@ -147,7 +158,7 @@ p {}
 /* Page Specific Styles
 ================================================== */
 
-/* Page Titles, Icons, & Shapes
+/* Page Titles, Icons, and Shapes
 ----------------------------------- */
 
 
@@ -213,6 +224,7 @@ footer {
 	margin-top: 30px;
 	margin-bottom: 30px;
 	font-size: 14px;
+	color: #6b6c6c
 }
 
 
