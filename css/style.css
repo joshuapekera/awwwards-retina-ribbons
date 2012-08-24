@@ -208,11 +208,12 @@ img.retina {
 
 img.awwwshadow {
 	position: absolute;
+	z-index: -1;
 }
 
 img.awwwicon {
-	z-index:10;
-	position:absolute;
+	position:relative;
+
 }
 
 hr.divide {
