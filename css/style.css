@@ -206,6 +206,10 @@ img.retina {
 /* Demo Page
 ---------------- */
 
+img.holder {
+	position: relative;
+}
+
 img.awwwshadow {
 	position: absolute;
 }
