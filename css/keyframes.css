@@ -29,7 +29,7 @@
 /* Page Specific Animations
 -------------------------- */
 
-/* Demo Page
+/* Home Page
 ---------------- */
 #logo {
     -webkit-animation-duration: 1s;
@@ -151,6 +151,38 @@
     -o-animation-iteration-count: 1;
 }
 
+/* Demo Page
+---------------- */
+
+#icon {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+}
+
+#shadow {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -ms-animation-delay: 1s;
+    -o-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+}
 
 /* Media Queries
 ================================================== */
