@@ -207,20 +207,28 @@ img.retina {
 ---------------- */
 
 .wrapper {
-	text-align: center;
 	position: relative;
+	max-width: 270px;
+	margin: 0 auto;
 }
 
 img.holder {
-	position: relative;
+	margin-top: 60px;
+	margin-bottom: 0px;
 }
 
 img.awwwshadow {
 	position: absolute;
+	left: 0;
+	top:60px;
+	z-index: 2;
 }
 
 img.awwwicon {
 	position:absolute;
+	left: 0;
+	top: 60px;
+	z-index: 4;
 
 }
 
