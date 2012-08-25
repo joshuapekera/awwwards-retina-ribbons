@@ -174,32 +174,48 @@ p {}
 	text-align: center;
 }
 
+.featurewrapper {
+	position: relative;
+	max-width: 919px;
+	margin: 0 auto;
+}
+
 img.browser {
 	position: relative;
 }
 
 img.ribbons {
 	z-index: 10;
+	left: 0;
+	top: 0;
 	position: absolute;
 }
 
 img.ribbon-white {
 	z-index: 10;
+	left: 0;
+	top: 0;
 	position: absolute;
 }
 
 img.ribbon-black {
 	z-index: 11;
+	left: 0;
+	top: 0;
 	position: absolute;
 }
 
 img.ribbon-green {
 	z-index: 12;
+	left: 0;
+	top: 0;
 	position: absolute;
 }
 
 img.retina {
 	z-index: 9;
+	left: 0;
+	top: 0;
 	position: absolute;
 }
 
