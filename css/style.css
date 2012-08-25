@@ -29,7 +29,7 @@ body {
 
 /* Links */
 a {
-	color: #a0a1a2;
+	color: #6b6c6c;
 	text-fill-color: none;
 	-webkit-transition: color .4s linear;
 	-moz-transition: color .4s linear;
@@ -219,6 +219,18 @@ img.retina {
 	position: absolute;
 }
 
+.buckets {
+	margin-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.buckets img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
 /* Demo Page
 ---------------- */
 
@@ -249,16 +261,31 @@ img.awwwicon {
 }
 
 hr.divide {
-	margin-top: 300px;
+	margin-top: 60px;
+	margin-bottom: 20px;
 }
 /* Footer
 ================================================== */
 footer {
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-bottom: 20px;
 	font-size: 14px;
-	color: #6b6c6c
+	color: #a0a1a2;
+}
+
+.credit {
+	margin-right: 20px;
+	display: inline-block;
+	position: relative;
+	vertical-align: text-top;
+	line-height: 43px;
+}
+
+.tweet {
+	display: inline-block;
+	position: relative;
+	height: 2px;
 }
 
 
