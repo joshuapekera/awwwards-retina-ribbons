@@ -221,14 +221,22 @@ img.retina {
 
 .buckets {
 	margin-top: 30px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.buckets p {
+	text-align: center;
+	padding-top: 15px;
+	color: #cacbcc;
+	font-family: Georgia, sans-serif;
+	font-style: italic;
 }
 
 .buckets img {
 	display: block;
 	margin: 0 auto;
-	padding-bottom: 20px;
+	padding-bottom: 0px;
 }
 
 /* Demo Page
@@ -286,6 +294,45 @@ footer {
 	display: inline-block;
 	position: relative;
 	height: 2px;
+}
+
+/* Elements
+================================================== */
+
+/* Buttons
+-----------------------*/
+.btn-cta {
+	color: #adaeaf;
+	text-align: center;
+	padding: 9px 15px;
+	background-color: #f0f1f2;
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px white;
+	line-height: normal;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d9dbdc;
+	-webkit-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d9dbdc;
+	-moz-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d9dbdc;
+	-o-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d9dbdc;
+	display: block;
+}
+
+.btn-cta:hover,
+.btn-cta:active,
+.btn-cta.active,
+.btn-cta.disabled,
+.btn-cta[disabled] {
+  color: #ffffff;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+
+.btn-cta:active,
+.btn-cta.active {
+  background-color: #003399 \9;
 }
 
 
