@@ -1,6 +1,6 @@
 /*
  * Awwards Demo Github Page by Joshua Pekera
- * This is for the demo page only and has a lot of uncessasry style for implimenting the Awwwards retina banners. I would not recommend using anything in this file.
+ * This is for our project demo page only and has a lot of uncessasry style for implimenting the Awwwards retina banners. I would not recommend using anything in this file.
 */
 
 /* Table of Content
@@ -239,6 +239,19 @@ img.retina {
 	padding-bottom: 0px;
 }
 
+.intro h3 {
+	text-align: center;
+	font-family: georgia, serif;
+	font-weight: normal;
+	font-style: italic;
+	color: #999795;
+}
+
+.intro p {
+	text-align: justify;
+	line-height: 16px;
+}
+
 /* Demo Page
 ---------------- */
 
@@ -269,15 +282,16 @@ img.awwwicon {
 }
 
 hr.divide {
-	margin-top: 60px;
+	margin-top: 30px;
 	margin-bottom: 20px;
 }
+
 /* Footer
 ================================================== */
 footer {
 	text-align: center;
 	margin-top: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	font-size: 14px;
 	color: #a0a1a2;
 }
@@ -485,6 +499,30 @@ ul#globalnav {
 		background-size: 270px 49px;
 		height: 49px;
 		width: 270px;
+	}
+	
+	.intro p {
+		text-align: left;
+	}
+	
+	footer {
+		margin: 0 auto;
+	}
+	
+	.credit {
+		display: block;
+		position: relative;
+		vertical-align: text-top;
+		line-height: normal;
+		margin-bottom: 40px;
+	}
+	
+	.tweet {
+		display: block;
+		margin-right: 0px;
+		margin-bottom: 20px;
+		position: relative;
+		height: 22px;
 	}
 }
 
