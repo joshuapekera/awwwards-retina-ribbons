@@ -324,20 +324,6 @@ a.btn-cta {
 	position: relative;
 }
 
-/*
-a.btn-cta::after {
-	font-family: "AppleGothic";
-	content:"\276f";
-	font-weight: normal;
-	font-size: 17px;
-	line-height: normal;
-	display: inline-block;
-	position: absolute;
-	top: 13px;
-	right: 20px;
-}
-*/
-
 .btn-cta:hover,
 .btn-cta:active,
 .btn-cta:focus,
