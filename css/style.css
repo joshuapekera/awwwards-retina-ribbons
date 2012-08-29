@@ -302,10 +302,11 @@ footer {
 /* Buttons
 -----------------------*/
 a.btn-cta {
-	color: #adaeaf;
+	color: #8e8f8f;
 	text-align: center;
-	padding: 9px 15px;
+	padding: 12px 12px 12px 12px;
 	background-color: #f0f1f2;
+	font-family: "Karla","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 16px;
 	font-weight: bold;
 	text-shadow: 0px 1px 0px white;
@@ -313,32 +314,37 @@ a.btn-cta {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d9dbdc;
-		-webkit-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d9dbdc;
-		-moz-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d9dbdc;
-		-o-box-shadow: inset 0 1px 0 0 white, 0 1px 0 0 #d9dbdc;
+	box-shadow: 0px -1px 0px white, 0px 1px 0px #d4d5d6, inset 0px 0px 1px #e3e5e5;
 	background-color: #f0f1f2;
-	transition-property:color, background;   
-	transition-duration: .4s, .4s;   
-	transition-timing-function: linear, linear;
-		-webkit-transition-property:color, background;   
-		-webkit-transition-duration: .4s, .4s;   
-		-webkit-transition-timing-function: linear, linear;
-		-moz-transition-property:color, background;   
-		-moz-transition-duration: .4s, .4s;   
-		-moz-transition-timing-function: linear, linear;
-		-o-transition-property:color, background;   
-		-o-transition-duration: .4s, .4s;   
-		-o-transition-timing-function: linear, linear; 
+	transition: all .4s linear;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-o-transition: all .4s linear;
 	display: block;
+	position: relative;
 }
+
+/*
+a.btn-cta::after {
+	font-family: "AppleGothic";
+	content:"\276f";
+	font-weight: normal;
+	font-size: 17px;
+	line-height: normal;
+	display: inline-block;
+	position: absolute;
+	top: 13px;
+	right: 20px;
+}
+*/
 
 .btn-cta:hover,
 .btn-cta:active,
+.btn-cta:focus,
 .btn-cta.active,
 .btn-cta.disabled,
 .btn-cta[disabled] {
-  color: #8b8c8c;
+  color: #737474;
   background-color: #e8e8e8;
   *background-color: #e8e8e8;
 }
