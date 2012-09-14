@@ -629,6 +629,9 @@ only screen and (min-device-pixel-ratio : 1.5) {
 	a#fork-btn:before, a#download-btn:before, a#demo-btn:before {
 		background:url("../img/icons@2x.png") no-repeat;
 		background-size: 480px 480px;
+		zoom: 1; 
+		filter: alpha(opacity=100); 
+		opacity: 1;
 	}
 	
 	a#fork-btn:before {
