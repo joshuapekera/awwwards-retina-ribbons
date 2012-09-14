@@ -631,8 +631,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
 		background-size: 480px 480px;
 	}
 	
-	/*
-a#fork-btn:before {
+	a#fork-btn:before {
 		background-position:-60px -10px;
 	}
 
@@ -643,7 +642,6 @@ a#fork-btn:before {
 	a#demo-btn:before {
 		background-position:-108px -12px;
 	}
-*/
 }
 
 
