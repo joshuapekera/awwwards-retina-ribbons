@@ -1,12 +1,7 @@
-/*
- * awwwards.css by Joshua Pekera
- * follow me on Twitter @joshuapekera
-*/
-
 /* Memo
 ================================================== 
 IT IS NOT MANDITORY THAT YOU USE ALL OF THE FOLLOWING MEDIA QUERIES. IF YOU ARE BUILDING A FULLY RESPONSIVE PRODUCT YOU WILL LIKELY HAVE THESE ALREADY.
-YOU CAN ADAPT THESE CLASSES TO YOUR OWN STYLE SHEET IF SO CHOOSE.
+YOU CAN ADAPT THIS STYLE SHEET TO YOUR OWN IF YOU SO CHOOSE.
 ================================================== */
 
 /* Base Style
@@ -18,7 +13,8 @@ YOU CAN ADAPT THESE CLASSES TO YOUR OWN STYLE SHEET IF SO CHOOSE.
 	right:0px;
 	z-index:1040;
 }
-	
+
+/* CHANGE THE URL PATH TO THE RIBBON YOU WANT TO DISPLAY */	
 #awwwards a {
 	width:70px;
 	height:105px;
@@ -47,6 +43,8 @@ YOU CAN ADAPT THESE CLASSES TO YOUR OWN STYLE SHEET IF SO CHOOSE.
 ---------------------------------------------------------------------*/
 @media (max-width: 480px) {
 /* Styles */
+/* CHANGE THE URL PATH TO THE RIBBON YOU WANT TO DISPLAY */
+/* THIS MEDIA QUERY WILL LOAD THE RIBBON WITH AN OPTIMIZED SIZE FOR MOBILE. HOWEVER THIS IS FOR MOBILE DEVICES WITH A NORMAL RESOLUTION, ie "iPhone 3GS" */	
 	#awwwards a {
 		width:45px;
 		height:68px;
@@ -104,6 +102,7 @@ and (orientation : portrait) {
 only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
+/* THIS MEDIA QUERY WILL LOAD THE RIBBON OPTIMIZED FOR A DESKTOP OR TABLET DEVICE THAT HAS A RETINA DISPLAY. ie "iPad 3" or "MacBook Pro" */
 	#awwwards a {
 		background:url('../banners/awwwards_sotd_b_right2x.png') no-repeat;
 		background-size: 70px 105px;
@@ -112,9 +111,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 /* Target only smartphone device with retina display (ie iPhone) */
 @media only screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 1.5) {
+/* Styles */
+/* THIS MEDIA QUERY WILL LOAD THE RIBBON WITH AN OPTIMIZED SIZE FOR MOBILE THAT HAS A RETINA DISPLAY. ie "iPhone 4S" or "iPhone 5" */
 	#awwwards a {
 		background:url('../banners/awwwards_sotd_b_right_mobile2x.png') no-repeat;
 		background-size: 45px 68px;
 	}
 }
-
